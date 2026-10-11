@@ -1,0 +1,124 @@
+#mainMenu li {
+    display: inline-block;
+    color: #5D5D5D;
+}
+
+#mainMenu li a {
+    color: #5D5D5D;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+header {
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+}
+
+header svg {
+    display: inline-block;
+}
+
+header button {
+    display: inline-block;
+    border-radius: 20px;
+    height: 25px;
+    font-size: 10px;
+    border: 1px solid #EAEAEA;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: medium;
+    margin: 0;
+    color: black;
+}
+
+#mainMenu {
+    display: inline-block;
+    width: 60%;
+}
+
+#mainMenu ul {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+#lefSide {
+    width: 19%;
+    display: inline-block;
+}
+
+#rightSide {
+    direction: rtl;
+    width: 19%;
+    display: inline-block;
+}
+
+header svg {
+    position: relative;
+    top: 4px;
+    width: 22px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#log-in {
+    background-color: black;
+    color: white;
+}
+
+#sign-up {
+    background-color: white;
+    border: 1px solid #EAEAEA;
+}
+
+
+h2 {
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    border: 1.5px solid #EAEAEA;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+main {
+    padding-top: 25vh;
+}
+
+main input {
+    display: block;
+    border: none;
+    margin-bottom: 15px;
+}
+
+main button {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 10px;
+    border: 1px solid #EAEAEA;
+    background-color: white;
+    color: #5D5D5D;
+    padding-bottom: 20px;
+}
+
+main button svg {
+    width: 15px;
+    position: relative;
+    top: 5px;
+}
+#vois{
+    background-color: #EAEAEA;
+    color: black;
+    position: relative;
+    left: calc(62% - 100px);
+}

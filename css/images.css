@@ -1,0 +1,144 @@
+body {
+    background:
+        linear-gradient(180deg,
+            transparent 0%,
+            white 70%,
+            white 100%),
+        linear-gradient(100deg,
+            #EFD1FA 10%,
+            #F6D9EC 45%,
+            #FFE7D7 100%);
+    min-height: 100vh;
+}
+
+header {
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+}
+
+header svg {
+    display: inline-block;
+}
+
+header button {
+    display: inline-block;
+    border-radius: 20px;
+    height: 25px;
+    font-size: 10px;
+    border: 1px solid #EAEAEA;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: medium;
+    margin: 0;
+    color: black;
+}
+
+
+#lefSide {
+    width: 80%;
+    display: inline-block;
+}
+
+#rightSide {
+    direction: rtl;
+    width: 19%;
+    display: inline-block;
+}
+
+header svg {
+    position: relative;
+    top: 4px;
+    width: 22px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#log-in {
+    background-color: black;
+    color: white;
+}
+
+#sign-up {
+    background-color: white;
+    border: 1px solid #EAEAEA;
+}
+
+main {
+    width: 40%;
+    margin: auto;
+}
+
+#buttons {
+    width: 10%;
+    display: inline-block;
+}
+
+.explore p {
+    width: 80%;
+    display: inline-block;
+
+}
+
+.explore button{
+    display: inline-block;
+    border-radius: 20px;
+    height: 35px;
+    width: 35pxs;
+    font-size: 10px;
+    border: 2px solid #EAEAEA;
+    background-color: white;
+}
+.not-active{
+    opacity: 50%;
+}
+#galery article{
+    display: inline-block;
+    width: 15%;
+    margin-right: 2px;
+}
+#galery img{
+    width: 95%;
+    height: 110px;
+    border-radius: 10px;
+}
+#galery p{
+    color: #5D5D5D;
+    font-size: 12px;
+    text-align: center;
+}
+.two-line{
+    position: relative;
+    top:15px
+}
+#galery{
+    margin-bottom: 20px;
+}
+
+#discover #left{
+    width: 49%;
+    display: inline-block;
+}
+
+#discover #right{
+    width: 49%;
+    display: inline-block;
+}
+
+#discover article img{
+  width: 30px;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+}
+
+#discover article p{
+    padding: 5px;
+    color: #6E6E6E;
+  display: inline-block;
+font-size: 12px;
+}

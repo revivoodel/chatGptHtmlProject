@@ -36,7 +36,9 @@ header h1 {
     color: black;
 }
 
-
+h2{
+    margin: 0;
+}
 #lefSide {
     width: 80%;
     display: inline-block;

@@ -1,0 +1,147 @@
+#mainMenu li {
+    display: inline-block;
+    color: #5D5D5D;
+}
+
+#mainMenu li a {
+    color: #5D5D5D;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+header {
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+}
+
+header svg {
+    display: inline-block;
+}
+
+header button {
+    display: inline-block;
+    border-radius: 20px;
+    height: 25px;
+    font-size: 10px;
+    border: 1px solid #EAEAEA;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: medium;
+    margin: 0;
+    color: black;
+}
+
+#mainMenu {
+    display: inline-block;
+    width: 60%;
+}
+
+#mainMenu ul {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+#lefSide {
+    width: 19%;
+    display: inline-block;
+}
+
+#rightSide {
+    direction: rtl;
+    width: 19%;
+    display: inline-block;
+}
+
+header svg {
+    position: relative;
+    top: 4px;
+    width: 22px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#log-in {
+    background-color: black;
+    color: white;
+}
+
+#sign-up {
+    background-color: white;
+    border: 1px solid #EAEAEA;
+}
+
+
+header h2 {
+    margin: auto;
+    text-align: center;
+    margin: 20px;
+}
+main{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+margin-top: 30px;    
+}
+main #left,#right{
+    width: 48%;
+    height: 400px;
+    display: inline-block;
+    padding: 30px;
+    box-sizing: border-box;
+}
+main #right{
+
+    background:
+        radial-gradient(ellipse at 5% 25%, #ad82f7 0%, transparent 30%),
+        radial-gradient(ellipse at 95% 10%, #367bff 0%, transparent 25%),
+        radial-gradient(ellipse at 75% 75%, #456bff 0%, transparent 35%),
+        radial-gradient(ellipse at 5% 90%, #bd91f5 0%, transparent 30%),
+        radial-gradient(ellipse at 95% 95%, #5257ff 0%, transparent 30%),
+        #84ceff;
+
+    background-attachment: fixed;
+    border-radius: 20px;
+
+}
+main h3{
+    font-size: 30px;
+    font-weight:500;
+}
+main #left button{
+    border-radius: 20px;
+    height: 25px;
+    font-size: 10px;
+    border: 1px solid #EAEAEA;
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+}
+main #left{
+       
+}
+main #left p{
+    font-size: 12px;
+}
+main .grayText{
+    color: dimgray;
+    font-size: 8px;
+}
+main div{
+    margin-top: 110px;
+    background-color: white;
+    width: 90%;
+    font-size: 12px;
+    color: dimgray;
+    border-radius: 20px;
+    padding: 10px;
+}
+main div .bold{
+    font-weight: bold;
+}
